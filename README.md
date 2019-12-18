@@ -9,3 +9,4 @@ sell_tickets_multi_process.cpp |  多进程卖票，进程间通信使用共享�
 sell_tickets_multi_machine |  跨机器卖票，通信使用连接的socket(TCP)，server端使用多线程处理请求。使用时client必须修改变量ip的值
 webserver.cpp |  十分简陋的example，仅用于理解webserver工作原理
 webserver-post-agent.cpp |  代理http post请求，可集成到爬虫系统
+shell_scripts/distribute_order.sh |  在多个机器上执行同一命令，而不需要分别登录每台机器执行命令
