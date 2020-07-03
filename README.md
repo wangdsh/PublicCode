@@ -10,3 +10,4 @@ sell_tickets_multi_machine |  跨机器卖票，通信使用连接的socket(TCP)
 webserver.cpp |  十分简陋的example，仅用于理解webserver工作原理
 webserver-post-agent.cpp |  代理http post请求，可集成到爬虫系统
 shell_scripts/distribute_order.sh |  在多个机器上执行同一命令，而不需要分别登录每台机器执行命令
+send_email.py |  发送邮件，可用于代码执行完时提醒自己
